@@ -162,8 +162,17 @@ const globalStyles = `
     color: var(--muted);
     transition: color 0.2s;
     padding: 0;
+    outline: none;
   }
+  .nav-btn:focus { outline: none; }
+  .nav-btn:focus-visible { outline: none; }
   .nav-btn:hover { color: var(--gold); }
+
+  /* Strip focus rings from all buttons and links globally */
+  button:focus { outline: none; }
+  button:focus-visible { outline: none; }
+  a:focus { outline: none; }
+  a:focus-visible { outline: none; }
 
   /* Service card */
   .service-card {

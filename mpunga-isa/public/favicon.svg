@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Deep blue background (from PRD: dark blue/gold theme) -->
+  <rect width="64" height="64" rx="10" fill="#0D1117"/>
+
+  <!-- Subtle gold border -->
+  <rect x="1.5" y="1.5" width="61" height="61" rx="9" stroke="#C9A84C" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Shield body -->
+  <path d="M32 9 L51 17 L51 31 C51 43.5 42.5 53.5 32 57 C21.5 53.5 13 43.5 13 31 L13 17 Z"
+        fill="#1A2233"/>
+
+  <!-- Shield border in gold -->
+  <path d="M32 9 L51 17 L51 31 C51 43.5 42.5 53.5 32 57 C21.5 53.5 13 43.5 13 31 L13 17 Z"
+        stroke="#C9A84C" stroke-width="1.8" fill="none"/>
+
+  <!-- Gold checkmark -->
+  <polyline points="22,32 29,39 42,24"
+            stroke="#C9A84C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
