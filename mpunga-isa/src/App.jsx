@@ -645,13 +645,13 @@ function Footer() {
           <div>
             <div className="section-label" style={{ marginBottom: 20 }}>Réseaux</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-              <a href="https://instagram.com/colonelmpunga" target="_blank" rel="noreferrer" className="footer-link">
+              <a href="https://instagram.com/colonel_mpunga_" target="_blank" rel="noreferrer" className="footer-link">
                 <span className="material-icons" style={{ fontSize: 16, color: "var(--gold-dim)" }}>photo_camera</span>
-                @colonel Mpunga
+                @Lyckens Mpunga
               </a>
               <a href="https://facebook.com/lickensMpunga" target="_blank" rel="noreferrer" className="footer-link">
                 <span className="material-icons" style={{ fontSize: 16, color: "var(--gold-dim)" }}>people</span>
-                Lickens Mpunga
+                Lyckens Mpunga
               </a>
             </div>
           </div>
