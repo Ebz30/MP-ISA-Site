@@ -636,7 +636,7 @@ function Footer() {
               </a>
               <a href="mailto:lyckensmpunga@icloud.com" className="footer-link">
                 <span className="material-icons" style={{ fontSize: 16, color: "var(--gold-dim)" }}>email</span>
-                contact@mpunga-isa.com
+                lyckensmpunga@icloud.com
               </a>
             </div>
           </div>
