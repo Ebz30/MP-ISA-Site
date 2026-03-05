@@ -443,9 +443,27 @@ function Hero() {
       <div style={{ position: "absolute", top: "20%", right: "-5%", width: 500, height: 500, background: "radial-gradient(ellipse, rgba(201,168,76,0.07) 0%, transparent 70%)", pointerEvents: "none" }} />
       {/* Grid */}
       <div style={{ position: "absolute", inset: 0, backgroundImage: "linear-gradient(rgba(201,168,76,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,0.03) 1px, transparent 1px)", backgroundSize: "80px 80px", pointerEvents: "none" }} />
-      {/* Stamp */}
-      <div style={{ position: "absolute", top: 100, right: 48, border: "2px solid rgba(201,168,76,0.2)", padding: "5px 14px", transform: "rotate(2deg)", opacity: 0.3, pointerEvents: "none" }}>
-        <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.6rem", letterSpacing: "0.3em", color: "var(--gold)", textTransform: "uppercase" }}>CONFIDENTIEL</span>
+      {/* Stamp — large, centered in right free space */}
+      <div style={{
+        position: "absolute",
+        top: "50%", right: "6%",
+        transform: "translateY(-50%) rotate(-12deg)",
+        pointerEvents: "none",
+        userSelect: "none",
+        border: "1.5px solid rgba(201,168,76,0.22)",
+        padding: "8px 18px",
+        opacity: 0.18,
+      }}>
+        <span style={{
+          fontFamily: "var(--font-mono)",
+          fontSize: "clamp(1.4rem, 3vw, 2.2rem)",
+          letterSpacing: "0.45em",
+          color: "var(--gold)",
+          textTransform: "uppercase",
+          display: "block",
+          whiteSpace: "nowrap",
+        }}>CONFIDENTIEL</span>
+        <div style={{ width: "100%", height: "2px", background: "rgba(201,168,76,0.4)", marginTop: 6 }} />
       </div>
 
       <div style={{ maxWidth: 820, position: "relative", width: "100%" }}>
