@@ -1,5 +1,6 @@
 [build]
-  command = "npm --prefix mpunga-isa run build"
+  # Ensure Netlify installs dependencies for the subproject, then build
+  command = "npm --prefix mpunga-isa ci && npm --prefix mpunga-isa run build"
   publish = "mpunga-isa/dist"
 
 [[redirects]]
