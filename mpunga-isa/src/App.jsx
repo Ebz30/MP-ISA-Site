@@ -266,7 +266,7 @@ function Nav() {
 
         {/* Contact → WhatsApp */}
         <a
-          href="https://wa.me/243000000000"
+          href="https://wa.me/243815695616"
           target="_blank"
           rel="noreferrer"
           className="btn-primary"
@@ -630,11 +630,11 @@ function Footer() {
           <div>
             <div className="section-label" style={{ marginBottom: 20 }}>Contact Direct</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-              <a href="https://wa.me/243000000000" target="_blank" rel="noreferrer" className="footer-link">
+              <a href="https://wa.me/243815695616" target="_blank" rel="noreferrer" className="footer-link">
                 <span className="material-icons" style={{ fontSize: 16, color: "var(--gold-dim)" }}>chat</span>
                 WhatsApp
               </a>
-              <a href="mailto:contact@mpunga-isa.com" className="footer-link">
+              <a href="mailto:lyckensmpunga@icloud.com" className="footer-link">
                 <span className="material-icons" style={{ fontSize: 16, color: "var(--gold-dim)" }}>email</span>
                 contact@mpunga-isa.com
               </a>
