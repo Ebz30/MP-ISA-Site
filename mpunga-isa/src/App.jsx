@@ -502,13 +502,11 @@ function Hero() {
           </button>
         </div>
 
-        <div className="reveal reveal-delay-3 visible hero-stats" style={{ display: "flex", gap: 48, marginTop: 64, paddingTop: 32, borderTop: "1px solid var(--border)", flexWrap: "wrap" }}>
-          {[["15+", "Années d'expérience"], ["200+", "Audits réalisés"], ["98%", "Taux de résolution"]].map(([val, label]) => (
-            <div key={label} className="stat-item">
-              <div style={{ fontFamily: "var(--font-display)", fontSize: "1.9rem", fontWeight: 700, color: "var(--gold)", lineHeight: 1 }}>{val}</div>
-              <div style={{ fontFamily: "var(--font-mono)", fontSize: "0.62rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "var(--muted)", marginTop: 4 }}>{label}</div>
-            </div>
-          ))}
+        <div className="reveal reveal-delay-3 visible hero-stats" style={{ display: "flex", gap: 32, marginTop: 64, paddingTop: 32, borderTop: "1px solid var(--border)", flexWrap: "wrap", alignItems: "center" }}>
+          <span className="material-icons" style={{ color: "var(--gold)", fontSize: 18, opacity: 0.7 }}>verified_user</span>
+          <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.68rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--muted)" }}>Licencié en Criminologie</span>
+          <span style={{ color: "var(--gold-dim)", opacity: 0.4 }}>·</span>
+          <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.68rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--muted)" }}>Spécialiste en Sécurité Intérieure</span>
         </div>
       </div>
     </section>
@@ -636,7 +634,7 @@ function Bio() {
                 <div style={{ width: 200, height: 200, border: "1px solid var(--gold-dim)", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", background: "radial-gradient(circle, rgba(201,168,76,0.05) 0%, transparent 70%)" }}>
                   <div style={{ textAlign: "center" }}>
                     <span className="material-icons xl" style={{ color: "var(--gold)", display: "block", marginBottom: 8 }}>military_tech</span>
-                    <div style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--gold)", letterSpacing: "0.08em" }}>COLONEL</div>
+                    <div style={{ fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 600, color: "var(--gold)", letterSpacing: "0.08em" }}>LYCKENS</div>
                     <div style={{ fontFamily: "var(--font-mono)", fontSize: "0.55rem", letterSpacing: "0.3em", color: "var(--muted)", marginTop: 4 }}>MPUNGA · ISA</div>
                   </div>
                 </div>
@@ -644,7 +642,7 @@ function Bio() {
                   <div key={deg} style={{ position: "absolute", top: "50%", left: "50%", width: 5, height: 5, background: "var(--gold)", borderRadius: "50%", transform: `rotate(${deg}deg) translateX(129px) translateY(-50%)`, opacity: 0.45 }} />
                 ))}
               </div>
-              {[{ label: "EXPERT CERTIFIÉ", deg: -15, top: -18, right: -36 }, { label: "GRADE MILITAIRE", deg: 8, bottom: -18, left: -36 }].map(({ label, deg, ...pos }) => (
+              {[{ label: "CRIMINOLOGIE", deg: -15, top: -18, right: -36 }, { label: "SÉCURITÉ INTÉRIEURE", deg: 8, bottom: -18, left: -36 }].map(({ label, deg, ...pos }) => (
                 <div key={label} style={{ position: "absolute", ...pos, transform: `rotate(${deg}deg)`, border: "1px solid var(--gold-dim)", padding: "4px 10px", background: "var(--surface)" }}>
                   <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.55rem", letterSpacing: "0.2em", color: "var(--gold)", textTransform: "uppercase" }}>{label}</span>
                 </div>
@@ -657,19 +655,19 @@ function Bio() {
             <span className="gold-rule" />
             <div className="section-label" style={{ marginBottom: 10 }}>// À Propos du Consultant</div>
             <h2 className="section-title" style={{ fontFamily: "var(--font-display)", fontSize: "clamp(1.6rem, 3vw, 2.4rem)", fontWeight: 700, lineHeight: 1.25, marginBottom: 20 }}>
-              Colonel Mpunga —<br />
-              <span style={{ color: "var(--gold)" }}>L'intelligence interne</span>{" "}
-              au service de votre protection.
+              Lyckens Mpunga —<br />
+              <span style={{ color: "var(--gold)" }}>Expert en sécurité intérieure</span>{" "}
+              à votre service.
             </h2>
             <p style={{ fontSize: "0.88rem", color: "var(--muted)", lineHeight: 1.85, marginBottom: 16 }}>
-              Fort d'une carrière militaire et d'investigations internes dans des structures privées et publiques, le Colonel Mpunga a développé une expertise unique dans la détection et la neutralisation des failles humaines et organisationnelles.
+              Titulaire d'une licence en criminologie avec une spécialisation en sécurité intérieure, Lyckens Mpunga accompagne les organisations dans l'identification et la neutralisation de leurs vulnérabilités internes.
             </p>
             <p style={{ fontSize: "0.88rem", color: "var(--muted)", lineHeight: 1.85, marginBottom: 36 }}>
-              Son approche combine rigueur opérationnelle, discrétion absolue et méthodologies éprouvées — pour que votre organisation retrouve une intégrité totale.
+              Son approche repose sur une méthodologie rigoureuse, une totale discrétion et un diagnostic honnête — pour bâtir une culture d'intégrité durable au sein de votre structure.
             </p>
             <a href="https://wa.me/243815695616" target="_blank" rel="noreferrer" className="btn-primary">
               <span className="material-icons" style={{ fontSize: 16 }}>chat</span>
-              Consulter le Colonel Mpunga
+              Consulter Lyckens Mpunga
             </a>
           </div>
         </div>
